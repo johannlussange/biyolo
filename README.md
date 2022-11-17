@@ -15,5 +15,11 @@ Once this is done, it likewise uses the same model to perform a 3D reconstructio
 
 Both of these results are then combined and post-processed in several functions of main.py to reconstruct all of the roof planes of the entire urban area of the raster image in 3D. 
 
+The fully trained weights of these two MASKR-CNN models (which take 230 x 230 raster images as input) are available here:
+
+For the 2D segmentation: https://drive.google.com/file/d/1g5h3rBpcm1K6v87sJNlbJieKhwp5u7Ja/view?usp=share_link
+
+For the 3D reconstruction: https://drive.google.com/file/d/1MEw8ecUmwW_9HRUsoxPomLiYdhd7z02l/view?usp=share_link
+
 Remark: A few files of both the detectron2 suite and pycococreator are changed for this code to work. The tweaked native files are given here, and to be placed in the directories of the detectron2 and pycococreator repositories as shown here in the arborescence. 
 
