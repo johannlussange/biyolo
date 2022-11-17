@@ -1,9 +1,9 @@
 # biyolo
 One-shot 3D reconstruction of roof planes from urban satellite images with LOD2
 
-This code take as input one raster satellite image & one shapefile of the associated buildings' roof contours with their corners heights. 
+This code takes as input one raster satellite image & one shapefile of the associated buildings' roof contours with their corners heights. 
 
-It then creates randomized training/validation/testing sets and produce .json annotations in the COCO format via pycococreator: 
+It then creates randomized training/validation/testing sets and produces .json annotations in the COCO format via pycococreator: 
 
 https://github.com/waspinator/pycococreator
 
@@ -15,7 +15,7 @@ Once this is done, it likewise uses the same model to perform a 3D reconstructio
 
 Both of these results are then combined and post-processed in several functions of main.py to reconstruct all of the roof planes of the entire urban area of the raster image in 3D. 
 
-The fully trained weights of these two MASKR-CNN models (which take 230 x 230 raster images as input) are available here:
+The fully trained weights of these two MASKR-CNN models (which take 230 x 230 raster images as input) are available here below.
 
 For the 2D segmentation: 
 
